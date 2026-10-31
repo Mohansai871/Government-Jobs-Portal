@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://www.cvireland.com/blog/wp-content/uploads/2023/10/Jobs-in-ireland.jpg');
+  background-size: cover;
+  font-size:larger;
+  color:#0056b3;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+header {
+  color: rgb(21, 37, 61);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 51, 0);
+  text-decoration: blue;
+}
+
+section.job-search {
+  margin: 20px auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+.job-search h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.job-search input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.job-search button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-search button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  color: rgb(4, 18, 54);
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#jobResults {
+  margin-top: 20px;
+}

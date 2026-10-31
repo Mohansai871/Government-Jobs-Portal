@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://ecmas.in/wp-content/uploads/2019/12/contact-us.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #560404;
+    padding: 20px;
+    text-align: center;
+}
+section.address {
+    color: #dc0808;
+}
+
+section.address h2 {
+    color: #007BFF;
+}
+
+section.address p {
+    color: #ca1010;
+}
+
+section.address {
+    color: #cc0c0c;
+}
+
+section.address h2 {
+    color: #007BFF;
+}
+
+section.address p {
+    color: #9e0707;
+}
+
+section.address {
+    color: #e30d0d;
+}
+
+section.address h2 {
+    color: #007BFF;
+}
+
+section.address p {
+    color: #de0b0b;
+}
+
+.contact {
+    padding: 20px;
+    color: rgb(106, 225, 246);
+}
+
+.contact form {
+    display: flex;
+    color: #e1702e;
+}

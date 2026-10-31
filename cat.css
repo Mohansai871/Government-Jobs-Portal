@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://images.alphacoders.com/120/1202633.png');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b1c435;
+}
+nav{
+ul{
+ p1{
+    text-align:left;
+    text-emphasis-color: black;
+ }
+ p2{
+    text-align: center;
+ }
+ p3{
+    color: aqua;
+    text-align: right;
+ }
+}
+}
+
+header {
+    color: #f2f4f4;
+    padding: 20px;
+    text-align: center;
+}
+.button {
+    color:white ;
+    padding: 20px; 
+}
+.button ul{
+    color: rgb(69, 120, 57);
+}
+.button p1{
+    color: #b1c435;
+}
+
+.job-categories {
+    color: yellow;
+    padding: 20px;
+}
+
+.job-categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.job-categories li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #0d0808;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-categories i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.job-categories button {
+    color: #020101;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.job-categories button:hover {
+}

@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(98, 193, 163);
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: cover;
+}
+
+header {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.hero {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(214, 223, 58);
+    background-size:cover;
+    background-position: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+
+.features {
+    color: rgb(174, 204, 98);
+    padding: 20px;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 20px;
+}
+
+.features i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
